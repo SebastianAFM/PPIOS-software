@@ -1,3 +1,5 @@
+
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -83,3 +85,64 @@ nav {
 .piedepagina li{
     color: white;
 }
+
+
+.informacionp{
+    color: #ffffff;
+    font-size: 40px;
+    text-align: center;
+    background-color: rgb(27, 0, 146);
+    height: 90px;
+}
+
+.tituloc{
+
+    background-color: rgb(0, 215, 253);
+}
+
+.td{
+   font-size: 30px;
+}
+
+.tr{
+    box-sizing: inherit;
+}
+.tbody{
+    box-sizing: inherit;
+}
+
+.tabla{
+    padding: 10px;
+    box-shadow: 5px 5px 5px 5px #585555;
+    margin: auto;
+    border-collapse: collapse;
+    width: 70%;
+    text-align: center;
+    background-color: #0322cf;
+}
+
+
+.articulo {
+    margin: auto;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    gap: 120px;
+    border-radius: 20px;
+    justify-content: space-around;
+}
+
+
+.articulo p{
+    font-size: 35px;
+}
+
+.personajes{
+    text-decoration: none;
+    font-size: 25px;
+    justify-content: center;
+    display: flex;
+     padding: 20px;
+     gap: 70px;
+     
+    }
