@@ -8,13 +8,30 @@
 </head>
 <body>
 
+    <nav>
+        <input type="checkbox" id="menu-toggle">
+        <label for="menu-toggle" class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
+        
+        <ul class="nav-links">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="zonadecomidas.html">Restaurantes</a></li>
+            <li><a href="#">Sobre Nosotros</a></li>
+            <li><a href="#">Contacto</a></li>
+        </ul>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1)"><path d="M12 2C6.579 2 2 6.579 2 12s4.579 10 10 10 10-4.579 10-10S17.421 2 12 2zm0 5c1.727 0 3 1.272 3 3s-1.273 3-3 3c-1.726 0-3-1.272-3-3s1.274-3 3-3zm-5.106 9.772c.897-1.32 2.393-2.2 4.106-2.2h2c1.714 0 3.209.88 4.106 2.2C15.828 18.14 14.015 19 12 19s-3.828-.86-5.106-2.228z"></path></svg>
+    </nav>
+
     <section class="informacionp">
-        <h1> Zona de Comidas #1 </h1>
+        <h1> Zona de comidas #1 </h1>
     </section>
 
     <br><br>
 
-    <section> 
+    <section class="section-info"> 
 
         <article class="articulo">
 
@@ -22,7 +39,6 @@
                 <img class="imagen" src="IMAGENES/zonadecomidas.png" >
             </div>
 
-            
                 <p>
                   Esta es la cafeteria principal, la cual cuenta con 2 pisos
                   se encuentra al lado de las canchas sinteticas de la universidad
@@ -30,192 +46,206 @@
     
         </article>
 
-</section>
+    </section>
 
      <br><br>
+
+     <section id="restaurantes">
+        <article class="restaurantes-contenido">
+                <img src="IMAGENES/aldea-nikei2.jpg" alt="">
+                <h2>Aldea Nikei</h2>
+                <div class="boton-modal">
+                    <label for="btn-modal-1">
+                        Ver mas
+                    </label>
+                </div>
+        </article>
+
+        <article class="restaurantes-contenido">
+            <img src="IMAGENES/bigos-editada.jpg" alt="">
+            <h2>Bigo's</h2>
+            <div class="boton-modal">
+                <label for="btn-modal-2">
+                    Ver mas
+                </label>
+            </div>
+        </article>
+
+        <article class="restaurantes-contenido">
+            <img src="IMAGENES/coffee-house-editada.jpg" alt="">
+            <h2>Coffee House</h2>
+            <div class="boton-modal">
+                <label for="btn-modal-3">
+                    Ver mas
+                </label>
+            </div>
+        </article>
+    </section>
+     
+    <section id="restaurantes">
+        <article class="restaurantes-contenido">
+                <img src="IMAGENES/de-lolita-editada.jpg" alt="">
+                <h2>De lolita</h2>
+                <div class="boton-modal">
+                    <label for="btn-modal-4">
+                        Ver mas
+                    </label>
+                </div>
+        </article>
+
+        <article class="restaurantes-contenido">
+            <img src="IMAGENES/dogger2.jpg" alt="">
+            <h2>Dogger</h2>
+            <div class="boton-modal">
+                <label for="btn-modal-5">
+                    Ver mas
+                </label>
+            </div>
+        </article>
+
+        <article class="restaurantes-contenido">
+            <img src="IMAGENES/dunkin2.jpg" alt="">
+            <h2>Dunkin Donuts</h2>
+            <div class="boton-modal">
+                <label for="btn-modal-6">
+                    Ver mas
+                </label>
+            </div>
+        </article>
+    </section>
+
+    <section id="restaurantes">
+        <article class="restaurantes-contenido">
+            <img src="IMAGENES/el-tejadito-destacado.jpg" alt="">
+            <h2>El Tejadito</h2>
+            <div class="boton-modal">
+                <label for="btn-modal-7">Ver más</label>
+            </div>
+        </article>
     
-    <table class="tabla">
-        <tbody class="tbody">
-            <tr class="tr">
-                <td class="td">
-                    <div 
-                    class="tituloc"> <h2> Restaurantes disponibles </h2> 
-                    </div>
-
-                    <div>
-                        <div class="personajes">
-                            
-                            <div class="personajes"> 
-                                <div>
-                                    <div>
-                                        <a class="personaje"><b>Atletico<br> Nacional</b></a>
-                                    </div>
-                                </div>
-
-                                <div>
-                                    <div>
-                                        <a class="personaje"><b> Tolima <br> </b></a>
-                                    </div>
-                                </div>
-                    
-                                
-                                <div>
-                                    <div>
-                                        <a class="personaje"><b>Once <br> Caldas</b></a>
-                                    </div>
-                                </div>
-                                
-                                <div>
-                                    <div>
-                                        <a class="personaje"><b>Millonarios <br> </b></a>
-                                    </div>
-                                </div>
-                                
-                                <div>
-                                    <div>
-                                        <a class="personaje"><b>Santa fe <br> de Antioquia</b></a>
-                                    </div>
-                                </div>
-                                
-                                
-                            </div>
-                        
-                        </div>
-                        
-                        
-                        
-                    
-                        <div class="personajes">
-                    
-                            <div>
-                                <div>
-                                    <a class="personaje"><b>D.I <br> Medellin </b></a>
-                                </div>
-                            </div>
-                            
-                        
-                    
-                        
-                        
-                    
-                            <div>
-                                <div>
-                                    <a class="personaje"><b> Aguilas <br> Doradas </b></a>
-                                </div>
-                            </div>
-                            
-                        
-                    
-                       
-                    
-                            <div>
-                                <div>
-                                    <a class="personaje"><b>Equidad<br></b></a>
-                                </div>
-                            </div>
-                           
-                    
-                        
-                    
-                            <div>
-                                <div>
-                                    <a class="personaje"><b>Panda</b></a>
-                                </div>
-                            </div>
-                            
-                        
-                        
-                    
-                            <div>
-                                <div>
-                                    <a class="personaje"><b>Toge <br> Inumaki</b></a>
-                                </div>
-                            </div>
-                            
-                        </div>
-
-                        <div class="personajes"></div>
-                            
-                            <div class="personajes"> 
-                                <div>
-                                    <div>
-                                        <a class="personaje"><b>Atletico<br> Nacional</b></a>
-                                    </div>
-                                </div>
-                                <div>
-                                    <div>
-                                        <a class="personaje"><b> Tolima <br> </b></a>
-                                    </div>
-                                </div>
-                    
-                                
-                                <div>
-                                    <div>
-                                        <a class="personaje"><b>Yuta <br> Okkotsu</b></a>
-                                    </div>
-                                </div>
-                                
-                                <div>
-                                    <div>
-                                        <a class="personaje"><b>Maki <br> Zenin</b></a>
-                                    </div>
-                                </div>
-                                
-                                <div>
-                                    <div>
-                                        <a  class="personaje"><b>Ryomen <br> Sukuna</b></a>
-                                    </div>
-                                </div>
-                                
-                                
-                            </div>
-                        
-                        </div>
-
-                        <div class="personajes"></div>
-                            
-                            <div class="personajes"> 
-                                <div>
-                                    <div>
-                                        <a class="personaje"><b>Atletico<br> Nacional</b></a>
-                                    </div>
-                                </div>
-                                <div>
-                                    <div>
-                                        <a class="personaje"><b> Tolima <br> </b></a>
-                                    </div>
-                                </div>
-                    
-                                
-                                <div>
-                                    <div>
-                                        <a class="personaje"><b> Once <br> Caldas</b></a>
-                                    </div>
-                                </div>
-                                
-                                <div>
-                                    <div>
-                                        <a class="personaje"><b>Maki <br> Zenin</b></a>
-                                    </div>
-                                </div>
-                                
-                                <div>
-                                    <div>
-                                        <a class="personaje"><b>Ryomen <br> Sukuna</b></a>
-                                    </div>
-                                </div>
-                                
-                                
-                            </div>
-                        
-                        </div>
-                    
-                    </div>
-                </td>
-            </tr>
-        </tbody>
-    </table>
+        <article class="restaurantes-contenido">
+            <img src="IMAGENES/frisby2.jpg" alt="">
+            <h2>Frisby</h2>
+            <div class="boton-modal">
+                <label for="btn-modal-8">Ver más</label>
+            </div>
+        </article>
     
+        <article class="restaurantes-contenido">
+            <img src="IMAGENES/cres-y-catering.jpg" alt="">
+            <h2>Home Food</h2>
+            <div class="boton-modal">
+                <label for="btn-modal-9">Ver más</label>
+            </div>
+        </article>
+    </section>
+    
+    
+<input type="checkbox" id="btn-modal-1">
+<div class="container-modal" id="modal-1">
+    <div class="content-modal">
+        <h2>Información #1</h2>
+        <p>Información sobre Aldea Nikei. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        <button class="content-button"><a href="https://www.eafit.edu.co/servicios/restaurantes-y-cafeterias/Documents/aldea-nikei-menu.pdf">Ver menú</a></button>
+        <div class="btn-cerrar">
+            <label for="btn-modal-1">Cerrar</label>
+        </div>
+    </div>
+</div>
+
+<input type="checkbox" id="btn-modal-2">
+<div class="container-modal" id="modal-2">
+    <div class="content-modal">
+        <h2>Información #2</h2>
+        <p>Información sobre Bigo's. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        <button class="content-button"><a href="https://www.eafit.edu.co/servicios/restaurantes-y-cafeterias/Documents/biggos-menu.xlsx">Ver menú</a></button>
+        <div class="btn-cerrar">
+            <label for="btn-modal-2">Cerrar</label>
+        </div>
+    </div>
+</div>
+
+<input type="checkbox" id="btn-modal-3">
+<div class="container-modal" id="modal-3">
+    <div class="content-modal">
+        <h2>Información #3</h2>
+        <p>Información sobre Coffee House. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        <button class="content-button"><a href="https://www.eafit.edu.co/servicios/restaurantes-y-cafeterias/Documents/coffee-house-menu.pdf">Ver menú</a></button>
+        <div class="btn-cerrar">
+            <label for="btn-modal-3">Cerrar</label>
+        </div>
+    </div>
+</div>
+<input type="checkbox" id="btn-modal-4">
+<div class="container-modal" id="modal-4">
+    <div class="content-modal">
+        <h2>Información #4</h2>
+        <p>Información sobre De lolita. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        <button class="content-button"><a href="https://www.eafit.edu.co/servicios/restaurantes-y-cafeterias/Documents/menu-de-lolita.pdf">Ver menú</a></button>
+        <div class="btn-cerrar">
+            <label for="btn-modal-4">Cerrar</label>
+        </div>
+    </div>
+</div>
+
+<input type="checkbox" id="btn-modal-5">
+<div class="container-modal" id="modal-5">
+    <div class="content-modal">
+        <h2>Información #5</h2>
+        <p>Información sobre Dogger. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        <button class="content-button"><a href="https://www.eafit.edu.co/servicios/restaurantes-y-cafeterias/Documents/menu-dogger.pdf">Ver menú</a></button>
+        <div class="btn-cerrar">
+            <label for="btn-modal-5">Cerrar</label>
+        </div>
+    </div>
+</div>
+
+<input type="checkbox" id="btn-modal-6">
+<div class="container-modal" id="modal-6">
+    <div class="content-modal">
+        <h2>Información #6</h2>
+        <p>Información sobre Dunkin Donuts. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        <button class="content-button"><a href="https://www.eafit.edu.co/servicios/restaurantes-y-cafeterias/Documents/menu-dunkin-donuts.pdf">Ver menú</a></button>
+        <div class="btn-cerrar">
+            <label for="btn-modal-6">Cerrar</label>
+        </div>
+    </div>
+</div>
+<input type="checkbox" id="btn-modal-7">
+<div class="container-modal" id="modal-7">
+    <div class="content-modal">
+        <h2>Información #7</h2>
+        <p>Información sobre El Tejadito. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        <button class="content-button"><a href="https://www.eafit.edu.co/servicios/restaurantes-y-cafeterias/Documents/tejadito-menu.pdf">Ver menú</a></button>
+        <div class="btn-cerrar">
+            <label for="btn-modal-7">Cerrar</label>
+        </div>
+    </div>
+</div>
+
+<input type="checkbox" id="btn-modal-8">
+<div class="container-modal" id="modal-8">
+    <div class="content-modal">
+        <h2>Información #8</h2>
+        <p>Información sobre Frisby. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        <button class="content-button"><a href="https://www.eafit.edu.co/servicios/restaurantes-y-cafeterias/Documents/menu-frisby.pdf">Ver menú</a></button>
+        <div class="btn-cerrar">
+            <label for="btn-modal-8">Cerrar</label>
+        </div>
+    </div>
+</div>
+
+<input type="checkbox" id="btn-modal-9">
+<div class="container-modal" id="modal-9">
+    <div class="content-modal">
+        <h2>Información #9</h2>
+        <p>Información sobre Home Food. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        <button class="content-button"><a href="https://www.eafit.edu.co/servicios/restaurantes-y-cafeterias/Documents/menu-home-food.pdf">Ver menú</a></button>
+        <div class="btn-cerrar">
+            <label for="btn-modal-9">Cerrar</label>
+        </div>
+    </div>
+</div>
 
 
 
