@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: blue;
+    position: relative;
+}
+
+.hamburger {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.hamburger span {
+    display: block;
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    transition: 0.3s;
+}
+
+/* Escondemos el checkbox */
+#menu-toggle {
+    display: none;
+}
+
+/* Estilos de la lista de navegación */
+.nav-links {
+    list-style: none;
+    display: none;
+    flex-direction: column;
+    gap: 10px;
+    background-color: blue;
+    position: absolute;
+    top: 25px;
+    
+    padding: 10px;
+    z-index: 1;
+}
+
+.nav-links li { 
+    margin: 0;
+}
+
+.nav-links li a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-links li a:hover{
+    background-color: rgb(0, 153, 153);
+    transition: 0.4s;
+}
+/* Mostrar el menú cuando el checkbox está marcado */
+#menu-toggle:checked + .hamburger + .nav-links {
+    display: flex;
+}
+
+.mapa{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.iconos{
+    margin-top: 15px;
+}
+
+
+
+.piedepagina{
+    background-color: blue;
+}
+
+
+.piedepagina li{
+    color: white;
+}
